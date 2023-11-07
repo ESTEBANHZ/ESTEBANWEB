@@ -1,0 +1,24 @@
+<body>
+    <head>
+        <title>The Store, Nuevo producto</title>
+    </head>
+    <header>
+        <img src="https://cdn.shopify.com/s/files/1/0464/1233/3209/files/STR001_Syndication_Logo-2020-RGB_FA-01.jpg?height=628&pad_color=fff&v=1613771189&width=1200" 
+        width="250" height="150" alt="TheStore Logo">
+    </header>
+    <main>
+        <h2>Crear un nuevo producto</h2>
+        <form action="procesar_producto.php" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" required>
+            <br>
+            <label for="Precio">Precio:</label>
+            <input type="number" id="Precio" name="Precio" required><br>
+
+            <label for="Inventario">Inventario:</label>
+            <input type="number" id="Inventario" name="Inventario" required><br>
+
+            <button type="submit">Crear producto</button>
+        </form>
+    </main>
+</body>
